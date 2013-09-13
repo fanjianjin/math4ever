@@ -21,11 +21,11 @@ clone以后你当前目录下面就会有一个math4ever的文件夹，这个文
 
 修改以后运行这个命令
 
-git add <file-name>
+git add \<file-name\>
 
 git commit -m "你的修改信息/理由" （注意这个信息必须要有）
 
-然后git push origin master
+git push origin master
 
 这时候打开网址github.com/{your_username}/math4ever.git就能看到你这次更新的结果。
 
