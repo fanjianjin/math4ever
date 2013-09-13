@@ -4,18 +4,27 @@
 首先你需要安装一个可以用的git，安装以后在终端（command/Terminal）里面输入git命令如果没提示命令错误就说明已经安装好了。
 
 git把一个项目叫做一个仓库，我们这个项目目前就是一个仓库，这个仓库的地址是https://github.com/pfctgeorge/math4ever.git。
+
 大家可以先fork这个仓库，右上角Fork按钮。
+
 然后你fork来的仓库会有这个仓库当前的所有内容，这时候可以把你fork来的仓库取回到你的电脑上，你可以使用如下的命令
+
    git clone https://github.com/{your_username}/math4ever.git
 
 clone以后你当前目录下面就会有一个math4ever的文件夹，这个文件夹里面就是你fork来的仓库的所有内容。
+
 先运行这个命令 git remote add upstream https://github.com/pfctgeorge/math4ever.git
+
 你可以理解为你的仓库的父仓库是pfctgeorge/math4ever.git
 
 然后你可以修改通讯录的有关信息，记得保存。
+
 修改以后运行这个命令
+
 git add <file-name>
+
 git commit -m "你的修改信息/理由" （注意这个信息必须要有）
+
 然后git push origin master
 
 这时候打开网址github.com/{your_username}/math4ever.git就能看到你这次更新的结果。
